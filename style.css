@@ -10,13 +10,13 @@ body
     position: relative;
     margin-left: 10%;
     margin-right:10%;
-    background-color: rgb(61, 61, 61);
-    padding-bottom: 100%;
+    background-color: rgb(192, 187, 187);
+    padding-bottom: 20%;
     min-height: 100%;
 }
 
 #title{
-    color:rgb(173, 173, 173);
+    color:rgb(22, 22, 22);
     letter-spacing: 2px;
     font-size:42px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -51,7 +51,9 @@ li{
 }
 li a{
     display: block;
-    color: white;
+    color: rgb(0, 0, 0);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
     text-align: center;
     font-size: 15pt;
     padding: 15px 17px;
@@ -142,7 +144,9 @@ clear:both;
     border-radius: 50%;
     
 }
-
+#contact_info{
+    margin-left:35px;
+}
 #contact_form{
     margin-top: 15px;
     margin-left:35px;
