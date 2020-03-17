@@ -1,26 +1,30 @@
 html
 {
-    background: #6C6C6C;
+    background: #2E2E2E;
     height:100%;
-    padding:0px;
+    padding-bottom:0px;
     margin:0px;
 }
 body
 {
     position: relative;
-    background-color: #B6B6B6;
     margin-left: 10%;
     margin-right:10%;
-    margin-bottom: 0%;
+    background-color: rgb(61, 61, 61);
     padding-bottom: 100%;
-    min-width : 70%;
     min-height: 100%;
+}
+
+#title{
+    color:rgb(173, 173, 173);
+    letter-spacing: 2px;
+    font-size:42px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding : 15px;
 }
 h1
 {
-    padding : 15px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20pt;
+   
 }
 h2
 {
@@ -58,15 +62,14 @@ li a:hover{
 }
 input
 {
-    padding:10px;
-    font-size:12px;
-    border-radius: 2px;
-    border-color: black;
+    padding:5px;
+    border-radius: 0.5px;
+    border-color: rgb(168, 166, 166);
 }
 label
 {
-    padding:35px;
-    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
 }
 input[type="text"]{
     width:30%;
@@ -78,24 +81,30 @@ input[type="text"]{
 
 textarea{
     width:40%;
-    font-size:12px;
-    border-radius: 6px;
-    border-color: black;
-    margin-left:35px;
+    height: 240px;
+    font-size:14px;
+    border-radius: 0.5px;
+    border-color: rgb(168, 166, 166);
+    line-height: 20px;
+    outline:none;
+    font-weight: 200;
+    padding-left:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right: 20px;
+    
 }
 
 button[type="submit"]
-{
-    margin-left:35px;
+{  
     font-size:15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding:15px;
-    border-radius: 40px;
-    border-color: #922B21  ;
-    border-width:4px;
-    background-color: #C0392B;
+    border-radius: 4px;
+    background-color: rgb(53, 52, 52);
     color:white;
 }
+
 #footer
 {
 background-color: rgb(102, 102, 102);
@@ -105,6 +114,7 @@ width:100%;
 height:150px;
 clear:both;
 }
+
 #copyright
 {
     background-color: #2E2E2E;
@@ -118,6 +128,7 @@ clear:both;
     height:30px;
     clear:both;
 }
+
 .fa{
     display: inline-block;
     cursor: pointer;
@@ -130,6 +141,12 @@ clear:both;
     left: 750px;
     border-radius: 50%;
     
+}
+
+#contact_form{
+    margin-top: 15px;
+    margin-left:35px;
+
 }
 .fa:hover{
     opacity: 0.7;
